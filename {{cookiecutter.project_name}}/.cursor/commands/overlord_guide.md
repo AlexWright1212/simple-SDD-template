@@ -16,8 +16,8 @@ to perform. What is the agent optimizing, iterating on, or building?]
 
 ## Your Job
 
-**Goal:** [YOUR PROJECT: State the single measurable goal the agent is working toward.
-Be specific — e.g., "achieve 0 unmatched groups", "pass all test cases", "reduce error rate below 1%".]
+**Goal:** [YOUR PROJECT: State the measurable goal or goals the agent is working toward.
+Be specific — e.g., "achieve 0 unmatched groups", "pass all test cases (name the tests and needed results)", "reduce error rate below 1%".]
 
 **Reference:** See `spec/` for complete requirements, priorities, and success criteria.
 
@@ -43,6 +43,9 @@ Be specific — e.g., "achieve 0 unmatched groups", "pass all test cases", "redu
 |-----------|----------|---------|-------------|
 | [param]   | Yes/No   | -       | [description] |
 
+**Note** - You may adapt this format as needeed to accomodate different forms of testing 
+    - ExL multiple one-off tests versus e2e Playwright tests versus an evaluator script, etc.
+
 ---
 
 ## How to Read Past Results
@@ -52,6 +55,9 @@ Where does the agent check to understand history and avoid repeating mistakes?]
 
 - `[log file]` — [what it contains and when to use it]
 - `[results folder]` — [what it contains and when to use it]
+
+**Note** - THis is simply a a guide. Feel free to expand on and establish a different or improved system of iteration if needed
+- Ex: If running a set of 20 tests, could break up into groups, create multip,e tiered log files, etc.
 
 ---
 
